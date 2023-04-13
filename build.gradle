@@ -32,10 +32,10 @@ android {
 
     signingConfigs {
         testkey {
-            storeFile file("testkey.keystore")
-            storePassword '123456'
-            keyAlias 'testkey'
-            keyPassword '123456'
+            storeFile file('debug.keystore')
+            storePassword 'uossmart'
+            keyPassword 'uossmart'
+            keyAlias 'uos'
         }
     }
 
